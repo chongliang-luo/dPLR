@@ -1,0 +1,16 @@
+Package: dPLR
+Type: Package
+Title: Distributed Proportional Likelihood Ratio Model
+Version: 0.1.0
+Author: Chongliang Luo
+Maintainer: Chongliang Luo <luocl3009@gmail.com>
+Description: The Proportional Likelihood Ratio (PLR) model is an semiparametric extension of generalized linear model (Luo and Tsai, 2012) and is especially useful to model count data with overdispersion (compared to the Poisson regression model). The distributed PLR algorithm (dPLR) is developed to integrate data across clinical sites, allowing site-specific baseline function to account for between-site heterogeneity. The dPLR algorithm is designed to be privacy-preserving and communication-efficient.
+License: Apache License 2.0 
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.10)
+LinkingTo: Rcpp, 
+           RcppArmadillo
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 3.5.0)
